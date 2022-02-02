@@ -288,6 +288,8 @@ public with sharing class configureRVproduct
 
         //----------------piyush----------------
 
+        getdrillingOptions1();
+        getPaintingCoatingOptions2();  
         getdrillingOptions();
         getPaintingCoatingOptions();
         if(conRV.Finish_Configuration_Flag__c == false)
