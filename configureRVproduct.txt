@@ -252,6 +252,7 @@ public with sharing class configureRVproduct
         bShowReturnToProductSelectionButton = true;
         defaultQuoteLineView = oPacMetaData.Default_View__c;  
         QuoteLIneView = oPacMetaData.View__c; 
+	insert QuoteLIneView;
 
         system.debug('QuoteLIneView----> ' + QuoteLIneView);
         if(QuoteLIneView == 'Editable')
